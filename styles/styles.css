@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(/fonts/Overpass-VariableFont_wght.ttf);
+  font-family: Overpass;
+}
+.wrapper {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  font-family: Overpass;
+}
+
+.container {
+  font-family: Overpass;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  min-height: 300px;
+  width: 350px;
+  padding: 12px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.img {
+  border: 2px solid transparent;
+  background-color: hsl(213, 19%, 23%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+/* .links {
+    text-align: center;
+    display: flex;
+    gap: 24px;
+
+
+    a{
+        text-decoration: none;
+        /* font-size: 15px; 
+        font-weight: 700;
+        color: hsl(217, 12%, 63%);
+        padding: 6px 13px;
+        /* height: 20px;
+        width: 20px; 
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: hsl(213, 19%, 23%);
+    
+        
+    }
+    
+    
+}
+
+
+a:hover{
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+a:active{
+    background-color: hsl(25, 97%, 53%);
+    cursor: grabbing;
+} */
+.ratings {
+  display: flex;
+  justify-content: space-between;
+
+  .rating-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    border: 2px solid transparent;
+    background-color: hsl(213, 19%, 23%);
+}
+}
+
+.rating-btn:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+.rating-btn:active{
+    background-color: hsl(25, 97%, 53%);
+    cursor: grabbing;
+} 
+ .btn {
+  background-color: hsl(25, 97%, 53%);
+  padding: 12px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.btn:active {
+  cursor: grabbing;
+  background-color: white;
+}
+
+
+
+.thanks{
+    display: flex;
+    
+}
